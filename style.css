@@ -1,0 +1,98 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9edde;
+    color: #333;
+  }
+
+  header {
+    background-color: #000000;
+    color: #fff8f8;
+    padding: 15px;
+    text-align: center;
+  }
+
+  #dashboard {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 40px;
+    padding: 20px;
+    justify-content: center;
+  }
+h1{
+  font-size: 40px;
+}
+  button {
+    padding: 15px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+    width: 100%;
+  }
+
+  button:hover {
+    background-color: #27ae60;
+  }
+
+  input {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  #pol{
+    background-color: rgb(251, 125, 15);
+  }
+  #pol:hover{
+    background-color: rgb(255, 68, 0);
+  }
+  #figh{
+    background-color: #00b7ff;
+  }
+  #ambu{
+    background-color: #27ae60;
+  }
+  #figh:hover{
+    background-color: rgb(67, 225, 234);
+    
+  }
+  #ambu:hover{
+    background-color: rgb(60, 242, 118);
+    
+  }
+  #ssms{
+    background-color: rgb(58, 59, 60);
+    border: 3px solid rgb(223, 87, 87);
+    width:25%;
+    margin-left: 560px;
+    margin-top: 180px;
+  }
+ #ssms:hover{
+    background-color: aqua;
+    border: 3px solid #000000;
+  }
+  input{
+    width:30%;
+    text-align: center;
+    margin-left: 530px;
+    margin-top: 150px;
+    border: 3px solid black;
+  }
+  h1 span{
+    
+       color:rgb(255, 13, 0);
+       
+       overflow: hidden;
+       width: 30em;
+       animation: type 2s steps(60, end); 
+  }
+  @keyframes type{ 
+    from { width: 0; } 
+  } 
+  
